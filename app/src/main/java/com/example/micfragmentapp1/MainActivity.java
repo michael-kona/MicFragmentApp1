@@ -48,9 +48,7 @@ public class MainActivity extends AppCompatActivity
                 }
             });
             ft = fmgr.beginTransaction();
-            ft.add(R.id.ll_top,csef);
-
-            ft.commit();
+            ft.add(R.id.ll_top,csef);ft.commit();
         }
         catch (Exception ex)
         {

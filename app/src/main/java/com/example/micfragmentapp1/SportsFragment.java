@@ -71,7 +71,8 @@ public class SportsFragment extends Fragment implements AdapterView.OnItemClickL
                Toast.makeText(getContext(),lv.getItemAtPosition(i).toString() , Toast.LENGTH_SHORT).show();
                Bundle bun=new Bundle();
                bun.putInt("SelectedItemIndex",i);
-               getParentFragmentManager().setFragmentResult("requestKey",bun);
+               getParentFragmentManager().setFragmentResult
+                       ("requestKey",bun);
             }
         catch(Exception ex)
         {
